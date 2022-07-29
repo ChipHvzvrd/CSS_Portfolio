@@ -2,6 +2,15 @@
     font-family:'Neon';
     src: url(./NeonSans.ttf);
 }
+@font-face{
+    font-family: 'Square';
+    src: url(./Square.ttf);
+}
+body{
+    background-image: url(./images/Easy-Mazes.png);
+    background-position: center;
+    background-size: contain;
+}
 .nav{
     text-decoration: nourlne;
     font-family: 'Neon';
@@ -9,7 +18,7 @@
 }
 .nav:hover{
     text-decoration:underline;
-    color:lightgray;
+    color:aqua;
 }
 #djLogo{
     width: 190px;
@@ -30,21 +39,81 @@ h1{
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#site-1{
-    align-items: center;
-}
-#site-1-img{
-    width: 300px;
-    height: 160px;
-    object-fit: contain;
-}
 #portfolioLink{
+    padding-top: 20px;
     margin-top: 50px;
-    text-align: center;
-    padding: 50px;
+    text-align:justify;
     background-color: lightgray;
     border-radius: 2%;
+    opacity: 92%;
 }
 #portfolioLink a{
     color: black;
+    text-decoration: none;
+    font-family:'Square';
+    color: lightgray;
+    font-size: 20px;
+}
+#portfolioLink a:hover{
+    color: aqua;
+}
+#portfolioLink h1{
+    text-align: left;
+}
+#site-1{
+    margin:5px;
+    border:solid 3px white;
+    border-radius: 1%;
+    background-color: grey;
+}
+#site-2{
+    margin:5px;
+    border:solid 3px white;
+    border-radius: 1%;
+    background-color: grey;
+}
+#site-3{
+    margin:5px;
+    border:solid 3px white;
+    border-radius: 1%;
+    background-color: grey;
+}
+#site-4{
+    margin:5px;
+    border:solid 3px white;
+    border-radius: 1%;
+    background-color: grey;
+}
+#site-1-img{
+    opacity: 70%;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+#site-2-img{
+    opacity: 70%;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+#site-3-img{
+    opacity: 70%;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+#site-4-img{
+    opacity: 70%;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+#socialLink{
+    padding-top: 20px;
+    margin-top: 50px;
+    text-align:justify;
+    background-color: lightgray;
+    border-radius: 2%;
+    opacity: 92%;
 }

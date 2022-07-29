@@ -30,6 +30,21 @@ h1{
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#portfolioLink .col{
-    margin: 10px;
+#site-1{
+    align-items: center;
+}
+#site-1-img{
+    width: 300px;
+    height: 160px;
+    object-fit: contain;
+}
+#portfolioLink{
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+    background-color: lightgray;
+    border-radius: 2%;
+}
+#portfolioLink a{
+    color: black;
 }

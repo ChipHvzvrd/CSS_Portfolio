@@ -1,0 +1,35 @@
+@font-face{
+    font-family:'Neon';
+    src: url(./NeonSans.ttf);
+}
+.nav{
+    text-decoration: nourlne;
+    font-family: 'Neon';
+    color: black;
+}
+.nav:hover{
+    text-decoration:underline;
+    color:lightgray;
+}
+#djLogo{
+    width: 190px;
+    height: 90px;
+}
+h1{
+    font-family: 'Neon';
+}
+#aboutMe{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightgray;
+    border-radius: 2%;
+    opacity: 92%;
+}
+#aboutMe p{
+    opacity: 70%;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#portfolioLink .col{
+    margin: 10px;
+}

@@ -12,7 +12,7 @@ body{
     background-size: contain;
 }
 .nav{
-    text-decoration: nourlne;
+    text-decoration: none;
     font-family: 'Neon';
     color: black;
 }
@@ -33,11 +33,16 @@ h1{
     background-color: lightgray;
     border-radius: 2%;
     opacity: 92%;
+
 }
 #aboutMe p{
     opacity: 70%;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#aboutMe img{
+    float: right;
+    padding-right: 20%;
 }
 #portfolioLink{
     padding-top: 20px;
@@ -84,27 +89,39 @@ h1{
     border-radius: 1%;
     background-color: grey;
 }
+#site-5{
+    margin:5px;
+    border:solid 3px white;
+    border-radius: 1%;
+    background-color: grey;
+}
 #site-1-img{
     opacity: 70%;
-    width: 300px;
-    height: 200px;
-    object-fit: contain;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 #site-2-img{
     opacity: 70%;
-    width: 300px;
+    width: 100%;
     height: 200px;
     object-fit: contain;
 }
 #site-3-img{
     opacity: 70%;
-    width: 300px;
+    width: 100%;
     height: 200px;
     object-fit: contain;
 }
 #site-4-img{
     opacity: 70%;
-    width: 300px;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+#site-5-img{
+    opacity: 70%;
+    width: 100%;
     height: 200px;
     object-fit: contain;
 }
@@ -116,4 +133,22 @@ h1{
     background-color: lightgray;
     border-radius: 2%;
     opacity: 92%;
+    text-align: center;
+}
+
+#octo-link{
+    width: 50px;
+    height: 50px;
+}
+#instaG{
+    width: 50px;
+    height: 50px;
+}
+#faceB{
+    width: 70px;
+    height: 50px;
+}
+#linkdin{
+    width: 30%;
+    height: 50px;
 }
